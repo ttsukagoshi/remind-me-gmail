@@ -1,5 +1,5 @@
 # Send Gmail Reminders to Me
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/ttsukagoshi/remind-me-gmail.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ttsukagoshi/remind-me-gmail/context:javascript)  
+[![GitHub Super-Linter](https://github.com/ttsukagoshi/remind-me-gmail/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/ttsukagoshi/remind-me-gmail.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ttsukagoshi/remind-me-gmail/context:javascript)  
 A simple tool to create periodical reminders using Gmail & Google Sheets.
 
 ## How to Use
