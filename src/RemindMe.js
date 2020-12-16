@@ -14,6 +14,8 @@
 // 
 // For the latest information, see https://github.com/ttsukagoshi/remind-me-gmail
 
+/* exported onOpen, Reminder_MonthStart, Reminder_EveryMonday1300 */
+
 const REMINDER_SHEET_NAME = 'Reminder';
 const PLACEHOLDER_MARKER = /\{\{[^\}]+\}\}/g;
 
