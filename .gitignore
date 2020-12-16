@@ -1,2 +1,5 @@
 # clasp
 .clasp.json
+
+# misc
+.DS_Store
