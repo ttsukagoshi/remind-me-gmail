@@ -1,4 +1,4 @@
-// Copyright 2020 Taro TSUKAGOSHI
+// Copyright 2021 Taro TSUKAGOSHI
 // 
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ function onOpen() {
 function Reminder_MonthStart() {
   const reminderName = '月初';
   var placeholderValues = {
-    'date': Utilities.formatDate(new Date(), SpreadsheetApp.getActiveSpreadsheet().getSpreadsheetTimeZone(), "yyyyMM"),
+    'date': Utilities.formatDate(new Date(), SpreadsheetApp.getActiveSpreadsheet().getSpreadsheetTimeZone(), "yyyy-MM"),
     'spreadsheetUrl': SpreadsheetApp.getActiveSpreadsheet().getUrl()
   };
   sendReminder(reminderName, placeholderValues);
@@ -39,7 +39,7 @@ function Reminder_MonthStart() {
 function Reminder_EveryMonday1300() {
   const reminderName = '毎週月曜13:00';
   var placeholderValues = {
-    'date': Utilities.formatDate(new Date(), SpreadsheetApp.getActiveSpreadsheet().getSpreadsheetTimeZone(), "yyyyMM"),
+    'date': Utilities.formatDate(new Date(), SpreadsheetApp.getActiveSpreadsheet().getSpreadsheetTimeZone(), "yyyy-MM-dd"),
     'spreadsheetUrl': SpreadsheetApp.getActiveSpreadsheet().getUrl()
   };
   sendReminder(reminderName, placeholderValues);
